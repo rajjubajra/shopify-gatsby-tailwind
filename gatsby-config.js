@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-source-shopify`,
       options: {
         // The domain name of your Shopify shop.
-        shopName: `https://shopify-gatsby-tailwind.netlify.app/`,
+        shopName: `https://spify-gatsby-tailwind.myshopify.com`,
         // The storefront access token
         accessToken: `a4108da094e73c78d7eb08ea2354ce91`,
       },
