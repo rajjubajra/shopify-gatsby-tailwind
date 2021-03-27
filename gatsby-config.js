@@ -15,5 +15,14 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: `gatsby-source-shopify`,
+      options: {
+        // The domain name of your Shopify shop.
+        shopName: `[some-shop]`,
+        // The storefront access token
+        accessToken: `[token]`,
+      },
+    },
   ],
 };
